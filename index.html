@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rick and Morty</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Cabeçalho -->
+  <header class="topo">
+    <h2 class="marca">Rick <span>and</span> Morty</h2>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="hero-texto">
+      <h1>Todos personagens em<br>um só <span>lugar.</span></h1>
+      <p>
+        Esta documentação ajudará você a se familiarizar com os recursos
+        da API de Rick e Morty e mostrará como fazer diferentes consultas
+        para que você possa aproveitá-la ao máximo
+      </p>
+      <a href="https://rickandmortyapi.com/documentation" target="_blank" class="botao">Link documentação</a>
+      <p class="frase">Ai sim, Porr#@%&*</p>
+    </div>
+    <div class="hero-imagem">
+      <img width = "500" src="Rick-and-morty-desenho-animado-warner-artpoin8.png" alt="">
+    </div>
+  </section>
+
+  <!-- Personagens -->
+  <section class="secao-personagens">
+    <h2 class="titulo-secao">Personagens</h2>
+    <div id="grid" class="grid"></div>
+    <p id="status-carregamento" class="status">Carregando personagens...</p>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
